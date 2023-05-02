@@ -1,0 +1,1 @@
+int __attribute__((fastcall, naked))  puts(const char* s);
