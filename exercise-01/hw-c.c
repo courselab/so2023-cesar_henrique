@@ -1,8 +1,8 @@
-#include <hw-c.h>
+#include <stdio.h>
 
-int main (void)
-{
-  puts ("Hello World");
+int main (void) {
+
+  printf ("Hello World");
 
   return 0;
 }
