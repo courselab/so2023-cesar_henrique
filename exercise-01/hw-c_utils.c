@@ -1,4 +1,4 @@
-int __attribute__((fastcall, naked))  puts(const char* s)
+int __attribute__((thiscall, naked))  printf(const char* s)
 {
 __asm__
 (
